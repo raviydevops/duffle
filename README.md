@@ -1,2 +1,3 @@
 # duffle
-duffle docker image and installation
+
+docker image for duffle cnab
