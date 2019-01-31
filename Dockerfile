@@ -13,6 +13,6 @@ RUN make install
 
 
 FROM alpine:3.8
-RUN apk update && apk --no-cache add ca-certificates
+RUN apk update && apk upgrade && apk --no-cache add ca-certificates bash bash-completion
 RUN mkdir -p /cnab/app
 COPY --from=0 /usr/local/bin/duffle /usr/bin/duffle
