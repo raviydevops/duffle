@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp /usr/bin/duffle /tmp/duffle
